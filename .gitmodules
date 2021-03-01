@@ -1,0 +1,9 @@
+[submodule "anvl/anvl-dut/quagga"]
+	path = anvl/anvl-dut/quagga
+	url = git://github.com/ukontainer/quagga-anvl
+[submodule "anvl/anvl-dut/lwip-tap"]
+	path = anvl/anvl-dut/lwip-tap
+	url = git://github.com/ukontainer/lwip-tap
+[submodule "anvl/anvl-dut/seastar"]
+	path = anvl/anvl-dut/seastar
+	url = git://github.com/scylladb/seastar.git

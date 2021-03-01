@@ -1,0 +1,6 @@
+#*.pdf
+git
+*-numstat-*.dat
+*-numstat-*.txt
+*.log
+*.dat

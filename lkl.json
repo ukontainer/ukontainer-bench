@@ -1,0 +1,17 @@
+{
+    "sysctl": "net.ipv4.tcp_wmem=4096 87380 167772160",
+    "gateway": "172.17.0.1",
+    "interfaces": [
+        {
+            "ip": "172.17.0.2",
+            "masklen": "16",
+            "mac": "00:0d:0b:94:4e:97",
+            "offload": "0xc803",
+            "name": "tap0",
+            "type": "rumpfd"
+        }
+    ],
+    "debug": "1",
+    "singlecpu": "1",
+    "delay_main": "500000",
+}
