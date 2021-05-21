@@ -1,0 +1,18 @@
+{
+    "gateway": "172.17.0.1",
+    "interfaces": [
+        {
+            "ip": "172.17.0.39",
+            "masklen": "16",
+            "mac": "00:0d:0b:94:4e:97",
+            "param": "tap0",
+            "type": "tap",
+	    "offload":"0x8803"
+        }
+    ],
+    "singlecpu": "1",
+    "debug": "0",
+    "boot_cmdline": "mem=10G",
+    "sysctl": "net.ipv4.tcp_wmem=4096 10000000 2147483647",
+    "mounts": "./disk-ktls.img=/"
+}
